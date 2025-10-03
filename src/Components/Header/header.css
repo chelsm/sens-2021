@@ -1,0 +1,25 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    padding: 1em;
+}
+
+.open {
+    padding: 0;
+}
+
+.logo {
+    margin-right: 30px;
+    width: 30px;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 750px) {
+    .logo {
+        display: none;
+    }
+}

@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "TypoldBold";
+  src: url("../src/Fonts/The\ Northern\ Block\ Ltd\ -\ Typold\ Bold.otf") format("truetype");
+ }
+
+.app {
+  margin: 0 auto; 
+}
+/* .app-container{
+  height: 100%;
+  display: flex;
+}
+.app-content {
+  padding: 30px; 
+  width: 60%; 
+  background: #F0EAD8 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-logo img{
+  width: 70%;
+  object-fit: contain;
+}
+
+.social-media{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 25px;
+  padding: 0 30%;
+}
+
+.social-media img {
+  max-width: 30%;
+  min-width: 30px;
+  margin : 0 auto; 
+}
+
+.app-logo{
+  padding: 30px; 
+  background: #062644;
+  text-align: center;
+  width: 40%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-content h1{
+  color : #E81F54;
+  font-size: 20px;
+  font-weight: bold;
+}
+.app-content p{
+  color : #062644;
+  text-align: center;
+  font-size: 15px;
+
+} */
+input {
+    padding: 15px 20px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.1rem;
+    letter-spacing: 0.05rem;
+    border: none;
+  border : solid transparent;
+
+}
+button {
+  padding: 15px 20px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+}
+
+
+
+.scroll-down{
+  height: 50px;
+  width: 30px;
+  border: 2px solid #E81F54;
+  position: absolute;
+  left: 47%;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content:'';
+  position: absolute;
+  top:20%;
+  left: 50%;
+  border: 2px solid #062644c4;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1.5s ease-in-out infinite;
+}
+.scroll-down::after {
+  top: 30%;
+  animation-delay:.2s ;
+}
+.scroll-down:hover{
+  background-color:  rgba(255, 255, 255, 0.959);
+  border: 2px solid #e81f557e;
+}
+@keyframes scroll-down{
+  0%{
+      opacity: 0;
+  }
+  30%{
+      opacity: 1;
+  }
+  60%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      top: 90%;
+  }
+}

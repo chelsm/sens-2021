@@ -1,0 +1,84 @@
+.main-section {
+    min-height: calc(100vh - 120px);
+    padding: 10% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    color: #062644;
+    background-position: right;
+    background-size: cover;
+    overflow: hidden;
+    background-image: url("../../img/home_phone.svg");
+}
+
+.main-part{
+    margin: 3vh 0;
+    width: 60vw;
+}
+
+.main-title > * {
+    margin: 0px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.low img {
+    margin-left: 20px;
+    height: 100%;
+    width: 90px;
+    vertical-align: middle;
+}
+
+.main-title {
+    display: contents;
+    font-size: 2rem;
+}
+
+.main-information {
+    font-weight: 600;
+}
+
+.main-information span {
+    color: #474545;
+}
+
+.main-title .bold {
+    font-weight: bold;
+}
+
+.main-img {
+    position: absolute;
+    right: 0;
+    top: -9px;
+    z-index: -1;
+}
+
+.main-img img{
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+
+.hide-paragraphe{
+    display: none;
+}
+
+@media screen and (min-width: 910px) {
+    .main-img img{
+        display: block;
+    }
+    .main-section {
+        background-image:none;
+    }
+    .main-part{
+        width: 40vw;
+    }
+    .main-title {
+        display: initial;
+        width: 27vw;
+    }
+    .main-title .upper{
+        margin-right: 10px;
+    }
+}

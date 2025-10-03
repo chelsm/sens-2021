@@ -1,0 +1,38 @@
+.desktop-nav {
+    display: flex;
+    justify-content: space-evenly;
+    order: 2;
+    width: 100%;
+    align-items: center;
+}
+.desktop-nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    order: 2;
+    width: 70%;
+    align-items: center;
+}
+.desktop-nav div{
+    cursor: pointer;
+    font-weight: 600;
+    color:#062644;
+}
+.logoFonce{
+    height: 100%;
+    width: 100px;
+}
+.desktop-nav-container div:hover{
+    color: #E81F54;
+}
+.desktop-nav-container .sub {
+    background-color: #E81F54;
+    color: #F0EAD8;
+    padding:5px ;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+.desktop-nav-container .sub:hover {
+    color: #F0EAD8;
+    background-color: #e81f55c0;
+
+}

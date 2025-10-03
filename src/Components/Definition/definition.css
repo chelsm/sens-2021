@@ -1,0 +1,145 @@
+.definition-section {
+    padding: 5%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.definition-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.definition-part {
+    padding: 5%;
+    color: #062644 ;
+}
+
+.definition-btn{
+    float: right;
+    position: relative;
+
+}
+
+.showMoreBtn {
+    display: block;
+    margin-right: 0;
+    color: white;
+    background-color: #E81F54;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10em;
+    margin-top: 2vh;
+    box-shadow: 0px 0px 0px transparent;
+    border:  solid transparent;
+    text-shadow: 0px 0px 0px transparent;
+}
+
+.showMoreBtn:hover {
+    background-color: transparent;
+    color: #E81F54;
+    border:  solid #E81F54;
+    cursor: pointer;
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.blue-title {
+    color: #062644;
+}
+
+.red-title {
+    color:  #E81F54;
+    font-weight: bold;
+}
+
+.guillemet-left {
+    position: relative;
+    top: 54px;
+    left: -17px;
+}
+
+.guillemet-right {
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 47px;
+    right: -45px;
+}
+
+.definition-text {
+    position: relative;
+    font-size: 20px;
+    word-spacing: 6px;
+}
+.definition-text img{
+    height: 60px;
+    width: 60px;
+}
+.img_background {
+    object-fit: contain;
+    height: 100vh;
+}
+
+@media screen and (min-width: 700px) {
+    .definition-section {
+        padding: 5% 5% 0% 5%;
+        /* border: solid red; */
+        min-height: 100%;
+        max-width: 80vw;
+        margin: 0 auto;
+    }
+    .bg-def{
+        background-image:url("../../img/bg_teamWork.webp");
+        display: flex;
+        max-height: 100%;
+        border-radius: 10px;
+        padding: 3% 20px 3% 23%;
+        background-size: contain;
+        background-repeat: round;
+        /* background-repeat: no-repeat;     */
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .definition-title, .definition-part {
+        padding-top: 0px;
+        color: #F0EAD8 ;
+        width: 58%;
+    }
+
+    .red-title, .blue-title {
+        color: #F0EAD8 ;
+        font-weight: bold;
+    }
+
+    .definition-btn {
+        float: left;
+    }
+
+    .definition-text {
+        position: relative;
+        font-size: 1.6vw;
+        /* word-spacing: 6px; */
+    }
+
+    .definition-text p, .definition-text h3{
+        margin: 0;
+    }
+
+    .definition-title {
+        text-align: inherit;
+        font-size: 2vw;
+        font-style: normal;
+        margin: 0;
+        padding: 0px 5%;
+    }
+    .definition-title h3{
+        margin: 0;
+    }
+}
